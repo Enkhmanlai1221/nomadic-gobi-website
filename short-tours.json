@@ -1,0 +1,217 @@
+{
+  "category": "Short Tours Around Ulaanbaatar",
+  "overview": {
+    "description": "These short tours are designed for travelers who want to explore Mongolia’s most iconic cultural, historical, and natural highlights within a limited time. Each itinerary combines scenic landscapes, cultural heritage, and authentic local experiences. Tours can be adjusted based on available time, interests, and travel pace.",
+    "duration": "3–4 days",
+    "availability": "All year round",
+    "departure_return": "Ulaanbaatar"
+  },
+  "includes": [
+    "Transfers upon arrival and departure",
+    "English-speaking guide",
+    "All accommodations during the trip (outside Ulaanbaatar)",
+    "All meals (guide-prepared meals, local restaurants, cafés)",
+    "Private vehicle with experienced driver",
+    "Horse and camel riding",
+    "Entrance fees to national parks and sightseeing sites",
+    "Bottled water provided daily",
+    "Sleeping bags and mattresses"
+  ],
+  "excludes": [
+    "Travel insurance",
+    "Accommodation in Ulaanbaatar",
+    "Alcoholic beverages",
+    "Personal expenses (souvenirs, laundry, etc.)",
+    "Optional activities not mentioned in the itinerary"
+  ],
+  "tours": [
+    {
+      "id": 1,
+      "name": "Kharkhorin – Orkhon Waterfall – Elsen Tasarkhai – Ulaanbaatar",
+      "highlight": "Ancient Mongolian history combined with the beautiful landscapes of Central Mongolia. Optional horse trekking experience available.",
+      "image": "/short-tour/kharkhorum.jpg",
+      "days": [
+        {
+          "day": 1,
+          "title": "Kharkhorin (Karakorum)",
+          "description": "Drive to Kharkhorin, the ancient capital of the Mongol Empire during the 13th century. Visit Erdene  Zuu Monastery, the oldest surviving Buddhist monastery in Mongolia, surrounded by ancient stone walls and stupas.Once the capital of the Great Mongol Empire, Kharkhorin is one of Mongolia’s most important historical sites. Visitors will explore the ruins of the ancient city and learn about the era of Chinggis Khan and his successors. Overnight: Local ger camp with proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/kharkhorum.jpg"
+        },
+        {
+          "day": 2,
+          "title": "Orkhon Waterfall (UNESCO Site)",
+          "description": "Continue driving to the Orkhon Valley, a UNESCO World Heritage Site recognized for its outstanding cultural landscape and long history of nomadic civilization. Visit the Orkhon Waterfall, created by ancient volcanic eruptions and lava flows thousands of years ago. Enjoy a leisurely walk along the Orkhon River, surrounded by wide grasslands and dramatic basalt cliffs. The surrounding valley offers beautiful scenery and is ideal for walking and photography",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/orkhon.jpg"
+        },
+        {
+          "day": 3,
+          "title": "Elsen Tasarkhai (Mini Gobi)",
+          "description": "Known as the “Mini Gobi,” this area features sand dunes surrounded by grassy steppe and rocky hills. Visitors can walk on the dunes and experience a unique mix of desert and steppe landscapes. This unique area showcases an unusual combination of golden sand dunes, green grasslands, and forested hills in one location. You will have time to walk on the dunes, enjoy the vast open scenery, and experience a camel ride led by local nomadic herders. Overnight: Local ger camp with proper toilet and hot shower. Optional: Add one extra day for a horse trekking experience with local nomadic families.",
+          "optional": "Add one extra day for horse trekking",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/sanddunes.jpg"
+        },
+        {
+          "day": 4,
+          "title": "Return to Ulaanbaatar",
+          "description": "Arrival in the city in the late afternoon. Upon arrival, have a farewell dinner together then check in at the hotel and enjoy free time. The following morning, you will be transferred to the airport for your departure. End of the tour.",
+          "image": "/short-tour/ulaanbaatar.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Baga Gazriin Chuluu – Tsagaan Suvarga – Ar Burd Sand Dunes – Ulaanbaatar",
+      "highlight": "Dramatic granite formations, colorful cliffs, and classic Gobi Desert landscapes.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Baga Gazriin Chuluu (Middle Gobi)",
+          "description": "Sart the trip to Baga Gazriin Chuluu, a stunning granite rock formation that rises dramatically from the expansive steppes. Here, you can wander through narrow rock passages, discover scenic viewpoints, and explore the remnants of history hidden among the rocks. Overnight: Local ger camp with proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/bagachuluu.jpg"
+        },
+        {
+          "day": 2,
+          "title": "Tsagaan Suvarga (White Stupa)",
+          "description": "to Tsagaan Suvarga, a spectacular escarpment formed by wind and water erosion. Its colorful layered cliffs resemble the ruins of an ancient city and offer breathtaking views, especially at sunset. Tsagaan Suvarga (White Stupa) is a dramatic multi-colored cliff formation and geological site in the Gobi Desert of Mongolia. The name, which means White Stupa, comes from the cliffs' appearance, which resembles the ruins of an ancient city or Buddhist stupas from a distance. Once the floor of an ancient ocean, the escarpment is composed of sedimentary rock, primarily layers of clay and limestone, that built up over millions of years. Wind and water erosion have shaped the cliffs into their current form, exposing vivid layers of white, yellow, purple, orange, and red rock.The cliffs stretch for about 400 meters (1,312 feet) in length and reach a height of up to 60 meters (197 feet).",
+          "image": "/short-tour/orkhon.jpg"
+        },
+        {
+          "day": 3,
+          "title": "Ar Burd Sand Dunes",
+          "description": "A peaceful sand dune area offering wide desert views and a quiet atmosphere, perfect for short walks and enjoying the Gobi scenery. ",
+          "image": "/short-tour/sanddunes.jpg"
+        },
+        {
+          "day": 4,
+          "title": "Return to Ulaanbaatar",
+          "description": "Late afternoon come to UB, upon arrival, have a farewell dinner together then check in at the hotel and enjoy free time. The following morning, you will be transferred to the airport for your departure. End of the tour.",
+          "image": "/short-tour/ulaanbaatar.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Elsen Tasarkhai – Kharkhorin – Ugii Lake – Ulaanbaatar",
+      "highlight": "A balanced journey combining desert scenery, historical heritage, and a peaceful freshwater lake.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Elsen Tasarkhai (Mini Gobi)",
+          "description": "After breakfast, drive west from Ulaanbaatar to Elsen Tasarkhai, commonly known as the “Mini Gobi.” This unique area showcases an unusual combination of golden sand dunes, green grasslands, and forested hills in one location. You will have time to walk on the dunes, enjoy the vast open scenery, and experience a camel ride led by local nomadic herders. Overnight: Local ger camp with proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/sanddunes.jpg"
+        },
+        {
+          "day": 2,
+          "title": "Kharkhorin (Karakorum)",
+          "description": "Drive to Kharkhorin, the ancient capital of the Mongol Empire during the 13th century. Visit Erdene  Zuu Monastery, the oldest surviving Buddhist monastery in Mongolia, surrounded by ancient stone walls and stupas. Explore the remains of Karakorum and learn about the history of Genghis Khan and the Mongol Empire. Overnight: Local ger camp with proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/kharkhorum.jpg"
+        },
+        {
+          "day": 3,
+          "title": "Ugii Lake – Return to Ulaanbaatar",
+          "description": "A freshwater lake known for its birdlife and peaceful surroundings. It is an ideal place for relaxation and enjoying nature. Late afternoon come to UB, upon arrival, have a farewell dinner together then check in at the hotel and enjoy free time. The following morning, you will be transferred to the airport for your departure. End of the tour.",
+          "image": "/short-tour/ugii.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Terelj & Chinggis Khan Statue – Baga Gazriin Chuluu – Ar Burd Sand Dunes – Ulaanbaatar",
+      "highlight": "National parks, famous landmarks, and desert landscapes close to Ulaanbaatar.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chinggis Khan Statue & Terelj National Park",
+          "description": "After breakfast star your travel to the Majestic Chinggis Khaan Equestrian Statue, an impressive monument standing 40 meters tall. This iconic statue honors the legendary Mongolian leader, offering panoramic views of the surrounding steppe. To see the eagles and taking photos with an eagle on your arm. After soaking in the historical significance, travel to Terelj National Park, known for its breathtaking granite rock formations, lush green meadows, and tranquil rivers. Experience the serenity of nature in this breathtaking landscape. Overnight: Local ger camp with proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/orkhon.jpg"
+        },
+        {
+          "day": 2,
+          "title": "Baga Gazriin Chuluu",
+          "description": "Venture to Baga Gazriin Chuluu, an impressive granite rock formation rising from the steppe, creating a dramatic landscape that invites exploration. Arrive at a family-run ger camp to unwind amidst the serene surroundings, soaking in the natural beauty that envelops you. Discover the ruins of a hidden 17th-century monastery, explore unique rock formations, and visit a natural spring known for its crystal-clear water. This day is all about connecting with nature and recharging your spirit in this enchanting landscape. Overnight: At ger camp (proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/terelj.jpg"
+        },
+        {
+          "day": 3,
+          "title": "Ar Burd Sand Dunes",
+          "description": "EnjA peaceful sand dune area offering wide desert views and a quiet atmosphere, perfect for short walks and enjoying the Gobi scenery.",
+          "image": "/short-tour/sanddunes.jpg"
+        },
+        {
+          "day": 4,
+          "title": "Return to Ulaanbaatar",
+          "description": "Late afternoon come to UB, upon arrival, have a farewell dinner together then check in at the hotel and enjoy free time. The following morning, you will be transferred to the airport for your departure. End of the tour.",
+          "image": "/short-tour/ulaanbaatar.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Kharkhorin – Elsen Tasarkhai – Hustai National Park – Ulaanbaatar",
+      "highlight": "Cultural heritage and wildlife, ending with Mongolia’s famous wild horse reserve.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Kharkhorin & Erdene Zuu Monastery",
+          "description": "To Kharkhorin, the ancient capital of the Mongol Empire. Kharkhorin (formerly Karakorum) in Mongolia was the 13th-century capital of the vast Mongol Empire, a major Silk Road hub, and is now a historic town in the Orkhon Valley (a UNESCO site) known for Erdene Zuu Monastery, the first Buddhist monastery in Mongolia. Founded by Ögedei Khan, son of Genghis Khan, it served as the political and economic heart of the Mongol Empire, connecting East and West. Attracted merchants, artisans, and diplomats from across the world, becoming a vibrant cultural melting pot. Destroyed by Ming Dynasty forces in the late 14th century, leading to its abandonment.  Erdene Zuu Monastery: Built from the ruins of the ancient city in 1585, it's a stunning complex of temples surrounded by 108 stupas, showcasing Mongolian Buddhist art. Karakorum Museum: Displays artifacts from the Mongol Empire, providing context to the ancient capital. Overnight: Local ger camp with proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/kharkhorum.jpg"
+        },
+        {
+          "day": 2,
+          "title": "Elsen Tasarkhai (Mini Gobi)",
+          "description": "After breakfast, drive west from Ulaanbaatar to Elsen Tasarkhai, commonly known as the “Mini Gobi.” This unique area showcases an unusual combination of golden sand dunes, green grasslands, and forested hills in one location. You will have time to walk on the dunes, enjoy the vast open scenery, and experience a camel ride led by local nomadic herders. Overnight: Local ger camp with proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/sanddunes.jpg"
+        },
+        {
+          "day": 3,
+          "title": "Hustai National Park – Return to Ulaanbaatar",
+          "description": "On the way back to Ulaanbaatar, visit Hustai National Park, home to the reintroduced Przewalski’s wild horses. Hustai National Park (HNP), located 100 km southwest of Ulaanbaatar, is a 50,000-hectare protected area renowned for the successful reintroduction of the Przewalski’s horse (Takhi), the world's last wild horse species. Established in 1993, the park features a stunning mountain steppe landscape and is managed by a dedicated NGO, the Hustai National Park Trust. Following their extinction in the wild in the 1960s, the Takhi were reintroduced here starting in 1992. The population has grown significantly from the initial 84 to over 400 individuals by 2022. Late afternoon come to UB, upon arrival, have a farewell dinner together then check in at the hotel and enjoy free time. The following morning, you will be transferred to the airport for your departure. End of the tour.",
+          "image": "/short-tour/hustai.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Terelj – Baga Gazriin Chuluu – Ulaanbaatar",
+      "highlight": "A short adventure combining alpine landscapes and unique Middle Gobi geology.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Terelj National Park",
+          "description": "After breakfast in Ulaanbaatar, meet your guide and driver and depart for Gorkhi-Terelj National Park, located about 70 km east of the city (approximately 1.5–2 hours). Along the way, you will enjoy beautiful views of open steppe and granite mountains. Activities in Terelj: -Visit the famous Turtle Rock, a natural rock formation shaped like a giant turtle. -Explore the peaceful Aryabal Meditation Temple, situated on a hillside with panoramic views of the valley. -Enjoy a short nature walk or light hiking in the fresh mountain air. Overnight: Local ger camp with proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/terelj.jpg"
+        },
+        {
+          "day": 2,
+          "title": "Baga Gazriin Chuluu",
+          "description": "Start the trip to Baga Gazriin Chuluu, an impressive granite rock formation rising from the steppe, creating a dramatic landscape that invites exploration. Arrive at a family-run ger camp to unwind amidst the serene surroundings, soaking in the natural beauty that envelops you. Discover the ruins of a hidden 17th-century monastery, explore unique rock formations, and visit a natural spring known for its crystal-clear water. This day is all about connecting with nature and recharging your spirit in this enchanting landscape. Overnight: At ger camp (proper toilet and hot shower.",
+          "overnight": "Local ger camp with proper toilet and hot shower",
+          "image": "/short-tour/bagachuluu.jpg"
+        },
+        {
+          "day": 3,
+          "title": "Ulaanbaatar City Tour",
+          "description": "After breakfast drive back to to UB, upon arrival have a lunch then, until dinner we can make a short city tour. Enjoy a guided Ulaanbaatar city tour, visiting major cultural and historical highlights such as Gandan Monastery, Sukhbaatar Square, and Chinnggis Khan Museum, providing insight into Mongolia’s past, religion, and modern development. And shopping for souvenirs and Mongolian pure cashmere clothings …etc.",
+          "image": "/short-tour/ulaanbaatar.jpg"
+        },
+        {
+          "day": 4,
+          "title": "Departure",
+          "description": "The following morning, you will be transferred to the airport for your departure.",
+          "image": "/short-tour/ulaanbaatar.jpg"
+        }
+      ]
+    }
+  ]
+}
