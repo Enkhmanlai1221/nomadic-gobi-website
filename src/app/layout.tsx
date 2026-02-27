@@ -1,4 +1,3 @@
-import ReduxProvider from "@/providers/redux";
 import "@/styles/global.css";
 import "keen-slider/keen-slider.min.css";
 import type { Metadata } from "next";
@@ -30,10 +29,8 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <NuqsAdapter>
-          <ReduxProvider>
-            <HeroUIProvider>{children}</HeroUIProvider>
-            <Toaster />
-          </ReduxProvider>
+          <HeroUIProvider>{children}</HeroUIProvider>
+          <Toaster />
         </NuqsAdapter>
       </body>
     </html>

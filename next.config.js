@@ -10,16 +10,6 @@ const rewritesConfig = isDevelopment
     ]
   : [];
 
-//   const apiHost = process.env.NEXT_PUBLIC_LOCAL_API_HOST || "";
-// const rewritesConfig = apiHost
-//   ? [
-//       {
-//         source: "/:path*/aut/:path*",
-//         destination: `${apiHost}/:path*`,
-//       },
-//     ]
-//   : [];
-
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
@@ -29,47 +19,9 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // experimental: {
-  //   optimizePackageImports: [
-  //     "@mantine/core",
-  //     "@mantine/hooks",
-  //     "@mantine/modals",
-  //     "@mantine/dates",
-  //   ],
-  // },
 
   images: {
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "*.alicdn.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "http",
-        hostname: "*.alicdn.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "*.taobao.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "dev-goodtech.s3.ap-southeast-1.amazonaws.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "dev-azod.zto.mn",
-        port: "",
-        pathname: "/**",
-      },
       {
         protocol: "https",
         hostname: "randomuser.me",
@@ -82,16 +34,10 @@ const nextConfig = {
         port: "",
         pathname: "/img/**",
       },
-      {
-        protocol: "https",
-        hostname: "*.bananamall.mn",
-        port: "",
-        pathname: "/**",
-      },
     ],
   },
   webpack: (config) => {
-    config.externals = [...config.externals, { canvas: "canvas" }]; // required to make Konva & react-konva work
+    config.externals = [...config.externals, { canvas: "canvas" }];
     return config;
   },
   rewrites: async () => rewritesConfig,
