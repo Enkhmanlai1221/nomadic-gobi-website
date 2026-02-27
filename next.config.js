@@ -37,7 +37,7 @@ const nextConfig = {
   //     "@mantine/dates",
   //   ],
   // },
-  output: "standalone",
+
   images: {
     remotePatterns: [
       {
