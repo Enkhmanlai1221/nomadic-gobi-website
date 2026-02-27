@@ -17,7 +17,9 @@ export default function HomePage() {
       <ToursSection />
       <FifthSection />
       <EventsSection />
-      <BookingForm />
+      <div id="booking-form">
+        <BookingForm />
+      </div>
     </div>
   );
 }

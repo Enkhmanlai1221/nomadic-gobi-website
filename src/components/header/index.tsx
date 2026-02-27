@@ -13,12 +13,26 @@ import {
   NavbarMenuToggle,
   Link,
 } from "@heroui/react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 export function Header() {
   const pathname = usePathname();
+  const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const scrollToBooking = () => {
+    setIsMenuOpen(false);
+    if (pathname === "/") {
+      const el = document.getElementById("booking-form");
+      if (el) {
+        const y = el.getBoundingClientRect().top + window.scrollY - 100;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+    } else {
+      router.push("/#booking-form");
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -71,9 +85,6 @@ export function Header() {
                 priority
               />
             </div>
-            {/* <span className={`ml-3 font-serif font-bold text-xl tracking-tighter transition-colors text-black`}>
-              Nomadic Gobi
-            </span> */}
           </Link>
         </NavbarBrand>
       </NavbarContent>
@@ -98,9 +109,8 @@ export function Header() {
       <NavbarContent justify="end">
         <NavbarItem className="hidden sm:flex">
           <Button
-            as={Link}
-            href="/booking"
             className="rounded-full font-bold px-6 transition-all duration-300 bg-amber-700 text-white hover:bg-amber-800 shadow-lg"
+            onPress={scrollToBooking}
           >
             Book Now
           </Button>
@@ -130,10 +140,8 @@ export function Header() {
 
         <NavbarMenuItem className="pt-8">
           <Button
-            as={Link}
-            href="/booking"
             className="w-full h-14 text-lg font-bold bg-stone-900 text-white rounded-2xl"
-            onPress={() => setIsMenuOpen(false)}
+            onPress={scrollToBooking}
           >
             Book Your Stay
           </Button>

@@ -34,7 +34,7 @@ export default function BookingForm() {
                             viewport={{ once: true }}
                             className="text-center mb-6"
                         >
-                            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mt-2">Book your trip</h2>
+                            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mt-2">Send Inquiry</h2>
                         </motion.div>
                         <CardBody>
                             <form onSubmit={handleSubmit} className="flex flex-col gap-8">
@@ -61,10 +61,10 @@ export default function BookingForm() {
                                     type="submit"
                                     color="primary"
                                     isLoading={isLoading}
-                                    className="w-full bg-black text-white font-bold rounded-2xl"
+                                    className="rounded-full font-bold px-6 transition-all duration-300 bg-amber-700 text-white hover:bg-amber-800 shadow-lg"
                                     endContent={!isLoading && <SendHorizontal size={20} />}
                                 >
-                                    Book now
+                                    Send
                                 </Button>
                             </form>
                         </CardBody>
