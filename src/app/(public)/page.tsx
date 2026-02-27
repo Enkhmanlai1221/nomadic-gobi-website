@@ -6,6 +6,7 @@ import MainTourSection from "@/components/page/home/maintour-section";
 import SecondSection from "@/components/page/home/second-section";
 import ToursSection from "@/components/page/home/short-tour";
 import EventsSection from "@/components/page/home/third-section";
+import BookingForm from "./booking/form";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <ToursSection />
       <FifthSection />
       <EventsSection />
+      <BookingForm />
     </div>
   );
 }

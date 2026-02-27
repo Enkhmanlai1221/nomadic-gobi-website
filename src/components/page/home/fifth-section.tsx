@@ -28,7 +28,7 @@ const regions = [
     {
         id: "WESTERN_MONGOLIA",
         region: "West",
-        title: "Northern Mongolia",
+        title: "Western Mongolia",
         subtitle: "Remote Wilderness",
         description: "A remote, crystal-clear freshwater lake where deep blue waters meet golden sand dunes. Located in Zavkhan Province, this surreal landscape offers untouched wilderness.",
         image: "/destinations/ulaagch.jpg",

@@ -2,129 +2,214 @@
   "tours": [
     {
       "id": 1,
-      "name": "Kharkhorin – Orkhon Waterfall – Elsen Tasarkhai – Ulaanbaatar",
+      "type": "SOUTHERN_MONGOLIA",
+      "name": "Southern Mongolia",
       "highlight": "Ancient Mongolian history combined with the beautiful landscapes of Central Mongolia. Optional horse trekking experience available.",
       "image": "/short-tour/kharkhorum.jpg",
       "days": [
         {
           "day": 1,
-          "title": "Kharkhorin (Karakorum)",
-          "description": "Drive to Kharkhorin, the ancient capital of the Mongol Empire during the 13th century. Visit Erdene  Zuu Monastery, the oldest surviving Buddhist monastery in Mongolia, surrounded by ancient stone walls and stupas.Once the capital of the Great Mongol Empire, Kharkhorin is one of Mongolia’s most important historical sites. Visitors will explore the ruins of the ancient city and learn about the era of Chinggis Khan and his successors. Overnight: Local ger camp with proper toilet and hot shower.",
-          "overnight": "Local ger camp with proper toilet and hot shower",
-          "image": "/short-tour/kharkhorum.jpg"
+          "title": "Khongor Sand Dunes",
+          "description": "Khongor Sand Dunes are among the largest and most impressive sand dunes in Mongolia, located in the Gobi Desert within the Gobi Gurvansaikhan National Park. Stretching for about 180 kilometers in length and rising to heights of 300 meters, these massive dunes are often referred to as the Singing Dunes due to the melodic sounds produced by the wind as it moves across the sand. The dunes are bordered by the Khongoryn Gol River, creating a stunning contrast between the lush, green oasis and the vast, golden sands. Visitors to the dunes can experience a variety of activities, including camel trekking, hiking to the dune summits for panoramic views, and sliding down the sandy slopes. The region is also home to nomadic herders who offer ger camp accommodations, allowing travelers to experience traditional Mongolian hospitality. Khongoryn Els Dunes offer an unforgettable desert experience, with their immense scale, natural beauty, and peaceful atmosphere making them a must-visit destination in southern Mongolia.",
+          "images": [
+            "/destinations/khongorsand/img1.jpg",
+            "/destinations/khongorsand/img2.jpg",
+            "/destinations/khongorsand/img3.jpg",
+            "/destinations/khongorsand/img4.jpg",
+            "/destinations/khongorsand/img5.jpg",
+            "/destinations/khongorsand/img6.jpg",
+            "/destinations/khongorsand/img7.jpg",
+            "/destinations/khongorsand/img8.jpg",
+            "/destinations/khongorsand/img9.jpg",
+            "/destinations/khongorsand/img10.jpg",
+            "/destinations/khongorsand/img11.jpg"
+          ]
         },
         {
           "day": 2,
-          "title": "Orkhon Waterfall (UNESCO Site)",
-          "description": "Continue driving to the Orkhon Valley, a UNESCO World Heritage Site recognized for its outstanding cultural landscape and long history of nomadic civilization. Visit the Orkhon Waterfall, created by ancient volcanic eruptions and lava flows thousands of years ago. Enjoy a leisurely walk along the Orkhon River, surrounded by wide grasslands and dramatic basalt cliffs. The surrounding valley offers beautiful scenery and is ideal for walking and photography",
-          "overnight": "Local ger camp with proper toilet and hot shower",
-          "image": "/short-tour/orkhon.jpg"
+          "title": "Tsagaan Suvarga",
+          "description": "Tsagaan Suvraga is a stunning and unique geological formation located in Dundgovi Province of southern Mongolia. This site features striking limestone cliffs that have been eroded over millions of years, creating towering, stupa-like formations that resemble ancient Buddhist structures. The cliffs rise up to 30 meters high and stretch for nearly 400 meters, offering a dramatic and surreal landscape of layered rock in shades of white, red, and pink. The cliffs of Tsagaan Suvraga are believed to have once been part of an ancient seabed, and you can still find fossilized shells and marine creatures in the area, highlighting its prehistoric origins. The weathering and erosion over time have sculpted these rock formations into spectacular shapes, making the area a popular destination for photographers and nature lovers. The landscape surrounding Tsagaan Suvraga is part of the Gobi Desert and is characterized by wide, open plains and desert steppe, offering a stark contrast to the towering cliffs. Visitors often hike around the site to explore the formations up close, and the location is particularly beautiful during sunrise and sunset when the colors of the rocks shift with the changing light. Tsagaan Suvraga is a must-see destination for travelers seeking Mongolia’s lesser-known natural wonders and those fascinated by unique geological formations. Its combination of ancient history, scenic beauty, and peaceful isolation makes it one of the highlights of southern Mongolia.",
+          "images": [
+            "/destinations/tsagaansuwarga/img1.jpg",
+            "/destinations/tsagaansuwarga/img2.jpg",
+            "/destinations/tsagaansuwarga/img3.jpg",
+            "/destinations/tsagaansuwarga/img4.jpg",
+            "/destinations/tsagaansuwarga/img5.jpg",
+            "/destinations/tsagaansuwarga/img6.jpg",
+            "/destinations/tsagaansuwarga/img7.jpg",
+            "/destinations/tsagaansuwarga/img8.jpg",
+            "/destinations/tsagaansuwarga/img9.jpg",
+            "/destinations/tsagaansuwarga/img10.jpg",
+            "/destinations/tsagaansuwarga/img11.jpg"
+          ]
         },
         {
           "day": 3,
-          "title": "Elsen Tasarkhai (Mini Gobi)",
-          "description": "Known as the “Mini Gobi,” this area features sand dunes surrounded by grassy steppe and rocky hills. Visitors can walk on the dunes and experience a unique mix of desert and steppe landscapes. This unique area showcases an unusual combination of golden sand dunes, green grasslands, and forested hills in one location. You will have time to walk on the dunes, enjoy the vast open scenery, and experience a camel ride led by local nomadic herders. Overnight: Local ger camp with proper toilet and hot shower. Optional: Add one extra day for a horse trekking experience with local nomadic families.",
-          "optional": "Add one extra day for horse trekking",
-          "overnight": "Local ger camp with proper toilet and hot shower",
-          "image": "/short-tour/sanddunes.jpg"
-        },
-        {
-          "day": 4,
-          "title": "Return to Ulaanbaatar",
-          "description": "Arrival in the city in the late afternoon. Upon arrival, have a farewell dinner together then check in at the hotel and enjoy free time. The following morning, you will be transferred to the airport for your departure. End of the tour.",
-          "image": "/short-tour/ulaanbaatar.jpg"
+          "title": "Flaming Cliffs",
+          "description": "Flaming Cliffs, located in the Gobi Desert of southern Mongolia, are renowned for their striking red and orange hues, which glow vividly at sunrise and sunset, giving the cliffs their fiery name. The cliffs, also known as Bayanzag, are not only famous for their beauty but also for their significant paleontological discoveries. In the 1920s, American explorer Roy Chapman Andrews unearthed some of the world’s first dinosaur fossils here, including dinosaur eggs, making the site a globally recognized paleontological treasure. Visitors to the Flaming Cliffs can explore the area’s rugged landscapes, hike along the cliff edges, and enjoy sweeping views of the surrounding desert. The region is also home to ancient saksaul trees, adding to the uniqueness of the terrain. For those interested in history, nature, and paleontology, the Flaming Cliffs offer an extraordinary experience, blending natural beauty with scientific significance in the heart of the Gobi Desert.",
+          "images": [
+            "/destinations/flamingcliffs/img1.jpg",
+            "/destinations/flamingcliffs/img2.jpg",
+            "/destinations/flamingcliffs/img3.jpg",
+            "/destinations/flamingcliffs/img4.jpg",
+            "/destinations/flamingcliffs/img5.jpg",
+            "/destinations/flamingcliffs/img6.jpg",
+            "/destinations/flamingcliffs/img7.jpg",
+            "/destinations/flamingcliffs/img8.jpg",
+            "/destinations/flamingcliffs/img9.jpg",
+            "/destinations/flamingcliffs/img10.jpg",
+            "/destinations/flamingcliffs/img11.jpg"
+          ]
         }
       ]
     },
     {
       "id": 2,
-      "name": "Baga Gazriin Chuluu – Tsagaan Suvarga – Ar Burd Sand Dunes – Ulaanbaatar",
+      "type": "CENTRAL_MONGOLIA",
+      "name": "Central Mongolia",
       "highlight": "Dramatic granite formations, colorful cliffs, and classic Gobi Desert landscapes.",
       "days": [
         {
           "day": 1,
-          "title": "Baga Gazriin Chuluu (Middle Gobi)",
-          "description": "Sart the trip to Baga Gazriin Chuluu, a stunning granite rock formation that rises dramatically from the expansive steppes. Here, you can wander through narrow rock passages, discover scenic viewpoints, and explore the remnants of history hidden among the rocks. Overnight: Local ger camp with proper toilet and hot shower.",
-          "overnight": "Local ger camp with proper toilet and hot shower",
-          "image": "/short-tour/bagachuluu.jpg"
+          "title": "Khorgo Volcano",
+          "description": "Located in the heart of Arkhangai Province, within the Khorgo-Terkhiin Tsagaan Nuur National Park, the combination of the Khorgo Volcano and Terkhiin Tsagaan Lake creates one of the most stunning and diverse natural landscapes in Mongolia. This unique region offers visitors the chance to experience both the dramatic volcanic scenery of Khorgo and the serene beauty of the Great White Lake.",
+          "images": [
+            "/destinations/khorgiintogoo/img1.jpg",
+            "/destinations/khorgiintogoo/img2.jpg",
+            "/destinations/khorgiintogoo/img3.jpg",
+            "/destinations/khorgiintogoo/img4.jpg",
+            "/destinations/khorgiintogoo/img5.jpg",
+            "/destinations/khorgiintogoo/img6.jpg",
+            "/destinations/khorgiintogoo/img7.jpg"
+          ]
         },
         {
           "day": 2,
-          "title": "Tsagaan Suvarga (White Stupa)",
-          "description": "to Tsagaan Suvarga, a spectacular escarpment formed by wind and water erosion. Its colorful layered cliffs resemble the ruins of an ancient city and offer breathtaking views, especially at sunset. Tsagaan Suvarga (White Stupa) is a dramatic multi-colored cliff formation and geological site in the Gobi Desert of Mongolia. The name, which means White Stupa, comes from the cliffs' appearance, which resembles the ruins of an ancient city or Buddhist stupas from a distance. Once the floor of an ancient ocean, the escarpment is composed of sedimentary rock, primarily layers of clay and limestone, that built up over millions of years. Wind and water erosion have shaped the cliffs into their current form, exposing vivid layers of white, yellow, purple, orange, and red rock.The cliffs stretch for about 400 meters (1,312 feet) in length and reach a height of up to 60 meters (197 feet).",
-          "image": "/short-tour/orkhon.jpg"
+          "title": "Terkhiin Tsagaan Lake",
+          "description": "At the base of Khorgo lies the serene Terkhiin Tsagaan Lake, also known as the Great White Lake. Formed by volcanic activity, this freshwater lake stretches over 16 kilometers in length and is surrounded by grassy meadows, pine forests, and the towering mountains of the Khangai Range. The crystal-clear waters of the lake are perfect for fishing, boating, and even swimming during the summer months. The lake is home to various fish species, particularly pike, making it a popular destination for anglers. The shores of the lake provide a peaceful setting for camping, hiking, and horseback riding, with the calm waters reflecting the surrounding volcanic landscape, creating postcard-worthy views. The area is also rich in wildlife, and visitors can often spot eagles, marmots, and a variety of bird species.",
+          "images": [
+            "/destinations/terkhiintsagaannuur/img1.jpg",
+            "/destinations/terkhiintsagaannuur/img2.jpg",
+            "/destinations/terkhiintsagaannuur/img3.jpg",
+            "/destinations/terkhiintsagaannuur/img4.jpg",
+            "/destinations/terkhiintsagaannuur/img5.jpg",
+            "/destinations/terkhiintsagaannuur/img6.jpg",
+            "/destinations/terkhiintsagaannuur/img7.jpg"
+          ]
         },
         {
           "day": 3,
-          "title": "Ar Burd Sand Dunes",
-          "description": "A peaceful sand dune area offering wide desert views and a quiet atmosphere, perfect for short walks and enjoying the Gobi scenery. ",
-          "image": "/short-tour/sanddunes.jpg"
-        },
-        {
-          "day": 4,
-          "title": "Return to Ulaanbaatar",
-          "description": "Late afternoon come to UB, upon arrival, have a farewell dinner together then check in at the hotel and enjoy free time. The following morning, you will be transferred to the airport for your departure. End of the tour.",
-          "image": "/short-tour/ulaanbaatar.jpg"
+          "title": "Orkhon Valley",
+          "description": "The Orkhon Valley, a UNESCO World Heritage Site, is often referred to as the cradle of Mongolian civilization. Stretching along the Orkhon River, this valley has been a vital cultural and historical hub for over two millennia. It was once home to the ancient Orkhon inscriptions, the earliest known examples of written Turkic language, and the seat of the Mongol Empire during its zenith. Today, the Orkhon Valley offers breathtaking landscapes of rolling hills, lush meadows, and the winding river that serves as the valley’s lifeline. Visitors can explore its rich archaeological heritage, visit ancient sites, and experience nomadic culture in a pristine natural setting. The valley is a must-visit for anyone interested in the history of Central Asia and the beauty of Mongolia’s landscapes.",
+          "images": [
+            "/destinations/ulaantsutgalan/img1.jpg",
+            "/destinations/ulaantsutgalan/img2.jpg",
+            "/destinations/ulaantsutgalan/img3.jpg",
+            "/destinations/ulaantsutgalan/img4.jpg",
+            "/destinations/ulaantsutgalan/img5.jpg",
+            "/destinations/ulaantsutgalan/img6.jpg",
+            "/destinations/ulaantsutgalan/img7.jpg"
+          ]
         }
       ]
     },
     {
       "id": 3,
-      "name": "Elsen Tasarkhai – Kharkhorin – Ugii Lake – Ulaanbaatar",
+      "type": "NORTHERN_MONGOLIA",
+      "name": "Northern Mongolia",
       "highlight": "A balanced journey combining desert scenery, historical heritage, and a peaceful freshwater lake.",
       "days": [
         {
           "day": 1,
-          "title": "Elsen Tasarkhai (Mini Gobi)",
-          "description": "After breakfast, drive west from Ulaanbaatar to Elsen Tasarkhai, commonly known as the “Mini Gobi.” This unique area showcases an unusual combination of golden sand dunes, green grasslands, and forested hills in one location. You will have time to walk on the dunes, enjoy the vast open scenery, and experience a camel ride led by local nomadic herders. Overnight: Local ger camp with proper toilet and hot shower.",
-          "overnight": "Local ger camp with proper toilet and hot shower",
-          "image": "/short-tour/sanddunes.jpg"
+          "title": "Khuvsgul Lake",
+          "description": "Khuvsgul Lake, often called the Blue Pearl of Mongolia, is one of the country’s most stunning natural wonders. Located in northern Mongolia near the Russian border, it is the largest freshwater lake in Mongolia and holds nearly 70% of the country's fresh water. The lake stretches over 136 kilometers in length and plunges to depths of 262 meters, making it one of the clearest and purest lakes in the world. Surrounded by the majestic Khuvsgul Mountains and dense taiga forests, the lake offers breathtaking scenery and a tranquil atmosphere. Its crystal-clear waters reflect the surrounding peaks, and visitors can enjoy a variety of activities such as boating, fishing, hiking, and horseback riding. In the winter, the lake freezes over, turning into a winter wonderland where visitors can experience ice festivals and ice skating. Khuvsgul Lake is also home to many ethnic Tsaatan reindeer herders, providing visitors with a unique opportunity to learn about the traditional nomadic culture of Mongolia’s northern tribes. Whether you're seeking adventure or a peaceful retreat in nature, Khuvsgul Lake is a must-visit destination for its unspoiled beauty and rich cultural experiences.",
+          "images": [
+            "/destinations/khuvsgullake/img1.jpg",
+            "/destinations/khuvsgullake/img2.jpg",
+            "/destinations/khuvsgullake/img3.jpg",
+            "/destinations/khuvsgullake/img4.jpg",
+            "/destinations/khuvsgullake/img5.jpg",
+            "/destinations/khuvsgullake/img6.jpg",
+            "/destinations/khuvsgullake/img7.jpg"
+          ]
         },
         {
           "day": 2,
-          "title": "Kharkhorin (Karakorum)",
-          "description": "Drive to Kharkhorin, the ancient capital of the Mongol Empire during the 13th century. Visit Erdene  Zuu Monastery, the oldest surviving Buddhist monastery in Mongolia, surrounded by ancient stone walls and stupas. Explore the remains of Karakorum and learn about the history of Genghis Khan and the Mongol Empire. Overnight: Local ger camp with proper toilet and hot shower.",
-          "overnight": "Local ger camp with proper toilet and hot shower",
-          "image": "/short-tour/kharkhorum.jpg"
+          "title": "Taiga",
+          "description": "The Taiga in northern Mongolia is a vast, pristine wilderness characterized by dense coniferous forests, rivers, and rolling mountains. This remote region, bordering Siberia, is one of the last untouched areas of the world and is home to some of Mongolia’s most unique cultural groups and stunning landscapes. The Mongolian Taiga is particularly famous for being the home of the Tsaatan reindeer herders and the expansive Darkhad Valley.",
+          "images": [
+            "/destinations/taiga/img1.jpg",
+            "/destinations/taiga/img2.jpg",
+            "/destinations/taiga/img3.jpg",
+            "/destinations/taiga/img4.jpg",
+            "/destinations/taiga/img5.jpg",
+            "/destinations/taiga/img6.jpg",
+            "/destinations/taiga/img7.jpg"
+          ]
         },
         {
           "day": 3,
-          "title": "Ugii Lake – Return to Ulaanbaatar",
-          "description": "A freshwater lake known for its birdlife and peaceful surroundings. It is an ideal place for relaxation and enjoying nature. Late afternoon come to UB, upon arrival, have a farewell dinner together then check in at the hotel and enjoy free time. The following morning, you will be transferred to the airport for your departure. End of the tour.",
-          "image": "/short-tour/ugii.jpg"
+          "title": "Amarbaysgalant Monastery",
+          "description": "Amarbaysgalant Monastery, located in the secluded Iven Valley of Selenge Province in northern Mongolia, is one of the country’s most important and well-preserved Buddhist monasteries. Built between 1727 and 1736, it was dedicated to the great Mongolian Buddhist teacher Zanabazar, the first spiritual leader of Mongolian Buddhism. The monastery was commissioned by the Qing Emperor to honor Zanabazar, and it became a significant center for Buddhism in Mongolia. The monastery's architecture is a stunning example of classical Tibetan-style design with strong influences from Chinese and Mongolian architectural traditions. The complex originally consisted of over 40 temples, but many were destroyed during the communist purges of the 1930s. Today, around 28 buildings remain, which have been carefully restored, preserving the intricate woodwork and delicate details that make Amarbaysgalant such an architectural masterpiece. Nestled in a peaceful valley, Amarbaysgalant Monastery offers visitors a tranquil setting where they can explore the spiritual history of Mongolia, enjoy the serene landscape, and experience the monastery’s rich cultural and religious significance. It remains an active place of worship, with monks living and practicing at the site, making it not only a historical monument but also a living center of Buddhist practice",
+          "images": [
+            "/destinations/amarbaysgalantmonastery/img1.jpg",
+            "/destinations/amarbaysgalantmonastery/img2.jpg",
+            "/destinations/amarbaysgalantmonastery/img3.jpg",
+            "/destinations/amarbaysgalantmonastery/img4.jpg",
+            "/destinations/amarbaysgalantmonastery/img5.jpg",
+            "/destinations/amarbaysgalantmonastery/img6.jpg",
+            "/destinations/amarbaysgalantmonastery/img7.jpg"
+          ]
         }
       ]
     },
     {
       "id": 4,
-      "name": "Terelj & Chinggis Khan Statue – Baga Gazriin Chuluu – Ar Burd Sand Dunes – Ulaanbaatar",
+      "type": "WESTERN_MONGOLIA",
+      "name": "Western Mongolia",
       "highlight": "National parks, famous landmarks, and desert landscapes close to Ulaanbaatar.",
       "days": [
         {
           "day": 1,
-          "title": "Chinggis Khan Statue & Terelj National Park",
-          "description": "After breakfast star your travel to the Majestic Chinggis Khaan Equestrian Statue, an impressive monument standing 40 meters tall. This iconic statue honors the legendary Mongolian leader, offering panoramic views of the surrounding steppe. To see the eagles and taking photos with an eagle on your arm. After soaking in the historical significance, travel to Terelj National Park, known for its breathtaking granite rock formations, lush green meadows, and tranquil rivers. Experience the serenity of nature in this breathtaking landscape. Overnight: Local ger camp with proper toilet and hot shower.",
-          "overnight": "Local ger camp with proper toilet and hot shower",
-          "image": "/short-tour/orkhon.jpg"
+          "title": "Ulaagchnii Khar Nuur",
+          "description": "Ulaagchnii Khar Lake is a remote and pristine freshwater lake located in Zavkhan Province in western Mongolia. The lake, covering around 60 square kilometers, is known for its crystal-clear waters and stunning natural surroundings. What makes Ulaagchnii Khar Lake especially captivating is the striking contrast between its deep blue waters and the nearby Bor Khyar sand dunes, where desert and lake meet, creating a surreal and picturesque landscape. The lake sits at an elevation of about 1,400 meters and offers a peaceful escape for those looking to experience Mongolia's untouched wilderness. The surrounding area is a mix of steppe, rocky hills, and sand dunes, making it a unique blend of ecosystems. The lake’s calm waters and sandy shores are ideal for relaxation, swimming, and picnicking, while the nearby dunes and hills provide opportunities for hiking and sandboarding. Nomadic herders live in the region, and visitors can stay in ger camps near the lake, offering a chance to experience the local culture and traditional Mongolian hospitality. Ulaagchnii Khar Lake is also a great spot for fishing and birdwatching, with the area being home to various species of fish and migratory birds. Due to its remote location, Ulaagchnii Khar Lake remains a peaceful and less-visited destination, perfect for travelers seeking tranquility and adventure in one of Mongolia’s most unspoiled regions.",
+          "images": [
+            "/destinations/ulaagchniikharnuur/img1.jpg",
+            "/destinations/ulaagchniikharnuur/img2.jpg",
+            "/destinations/ulaagchniikharnuur/img3.jpg",
+            "/destinations/ulaagchniikharnuur/img4.jpg",
+            "/destinations/ulaagchniikharnuur/img5.jpg",
+            "/destinations/ulaagchniikharnuur/img6.jpg",
+            "/destinations/ulaagchniikharnuur/img7.jpg"
+          ]
         },
         {
           "day": 2,
-          "title": "Baga Gazriin Chuluu",
-          "description": "Venture to Baga Gazriin Chuluu, an impressive granite rock formation rising from the steppe, creating a dramatic landscape that invites exploration. Arrive at a family-run ger camp to unwind amidst the serene surroundings, soaking in the natural beauty that envelops you. Discover the ruins of a hidden 17th-century monastery, explore unique rock formations, and visit a natural spring known for its crystal-clear water. This day is all about connecting with nature and recharging your spirit in this enchanting landscape. Overnight: At ger camp (proper toilet and hot shower.",
-          "overnight": "Local ger camp with proper toilet and hot shower",
-          "image": "/short-tour/terelj.jpg"
+          "title": "Altai Tavan Bogd",
+          "description": "Altai Tavan Bogd is a stunning national park in western Mongolia, known for its towering Five Sacred Peaks and Mongolia’s highest mountain, Khüiten Peak (4,374 meters). The park is home to glaciers, including the vast Potanin Glacier, and offers breathtaking views of snow-capped mountains and expansive valleys. The area is popular for trekking, mountaineering, and horseback riding, attracting adventurers to its remote and rugged terrain. Nomadic Kazakh families live in the region, and visitors can experience their traditional way of life, including the ancient practice of eagle hunting. Altai Tavan Bogd is renowned for its pristine wilderness, making it a must-visit for those seeking untouched natural beauty and cultural encounters in the Altai Mountains.",
+          "images": [
+            "/destinations/altaitavanbogd/img1.jpg",
+            "/destinations/altaitavanbogd/img2.jpg",
+            "/destinations/altaitavanbogd/img3.jpg",
+            "/destinations/altaitavanbogd/img4.jpg",
+            "/destinations/altaitavanbogd/img5.jpg",
+            "/destinations/altaitavanbogd/img6.jpg",
+            "/destinations/altaitavanbogd/img7.jpg"
+          ]
         },
         {
           "day": 3,
-          "title": "Ar Burd Sand Dunes",
-          "description": "EnjA peaceful sand dune area offering wide desert views and a quiet atmosphere, perfect for short walks and enjoying the Gobi scenery.",
-          "image": "/short-tour/sanddunes.jpg"
-        },
-        {
-          "day": 4,
-          "title": "Return to Ulaanbaatar",
-          "description": "Late afternoon come to UB, upon arrival, have a farewell dinner together then check in at the hotel and enjoy free time. The following morning, you will be transferred to the airport for your departure. End of the tour.",
-          "image": "/short-tour/ulaanbaatar.jpg"
+          "title": "Mukhart River",
+          "description": "Mukhart River is a unique and captivating natural wonder located in Zavkhan Province of western Mongolia. What makes this river so remarkable is that it emerges from the base of the towering Bor Khyar Sand Dunes, creating a striking contrast between the flowing freshwater and the surrounding desert landscape. The river, which flows from an underground spring, winds its way through the sand dunes and steppe, forming a lush oasis in an otherwise arid region. The Mukhart River is famous for its spring-fed waters, which bubble up from beneath the dunes, offering a rare and beautiful sight. The river flows for several kilometers before disappearing back into the ground, adding to its mystique. This rare combination of desert and water creates an ideal habitat for various species of birds and wildlife, making it a popular spot for birdwatching and nature photography. Visitors to the Mukhart River often come for the tranquility of the setting, enjoying activities such as hiking along the riverbanks or exploring the nearby Bor Khyar Sand Dunes. The area is also significant for nomadic herders, who bring their livestock to the river’s life-sustaining waters during the summer months. For those seeking off-the-beaten-path destinations in Mongolia, Mukhart River offers a peaceful and picturesque retreat, where the combination of flowing water and desert dunes creates a landscape that is both surprising and unforgettable.",
+          "images": [
+            "/destinations/mukhartriver/img1.jpg",
+            "/destinations/mukhartriver/img2.jpg",
+            "/destinations/mukhartriver/img3.jpg",
+            "/destinations/mukhartriver/img4.jpg",
+            "/destinations/mukhartriver/img5.jpg",
+            "/destinations/mukhartriver/img6.jpg",
+            "/destinations/mukhartriver/img7.jpg"
+          ]
         }
       ]
     }
