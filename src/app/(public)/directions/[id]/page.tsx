@@ -14,6 +14,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useCallback, useMemo, useRef, useState } from "react";
+import BookingForm from "../../booking/form";
 
 function DayImageCarousel({ images, title }: { images: string[]; title: string }) {
     const [current, setCurrent] = useState(0);
@@ -254,32 +255,8 @@ export default function DirectionPage() {
                     );
                 })}
             </div>
-
-            {/* Bottom CTA */}
-            <div className="bg-stone-900 py-16 px-6">
-                <div className="max-w-3xl mx-auto text-center space-y-6">
-                    <h3 className="text-3xl md:text-4xl font-serif text-white leading-tight">
-                        Ready to explore{" "}
-                        <span className="text-amber-500">{tour.name}</span>?
-                    </h3>
-                    <p className="text-stone-400 text-lg">
-                        Contact us to plan your unforgettable journey through Mongolia.
-                    </p>
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                        <Link
-                            href="/"
-                            className="px-8 py-3 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-full transition shadow-lg shadow-amber-600/30"
-                        >
-                            Contact Us
-                        </Link>
-                        <Link
-                            href="/"
-                            className="px-8 py-3 border border-stone-600 text-stone-300 hover:text-white hover:border-stone-400 font-medium rounded-full transition"
-                        >
-                            View All Tours
-                        </Link>
-                    </div>
-                </div>
+            <div className="mt-24">
+                <BookingForm />
             </div>
         </div>
     );

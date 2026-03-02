@@ -1,9 +1,9 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Calendar, MapPin, Snowflake, Sun, Info, ArrowRight, Flame } from "lucide-react";
-import { Button } from "@heroui/react";
+import { Calendar, MapPin, Snowflake, Sun, ArrowRight, Flame } from "lucide-react";
+import { Button, Modal, ModalBody, ModalContent, ModalHeader, useDisclosure } from "@heroui/react";
 
 const festivals = [
     {
@@ -15,7 +15,20 @@ const festivals = [
         description: "The Mongolian Lunar New Year welcomes spring and honors tradition. It is a three-day celebration filled with family gatherings, traditional Deel clothing, thousands of Buuz (dumplings), and 'zolgokh' greeting rituals.",
         highlights: ["Zolgokh (Greeting elders)", "Feasting on sheep & dairy", "Traditional games & attire"],
         image: "/event/lunarnewyear.jpg",
-        icon: <Snowflake className="w-5 h-5 text-blue-400" />
+        icon: <Snowflake className="w-5 h-5 text-blue-400" />,
+        detailDescription: "Danshig Naadam is one of Mongolia's grandest religious and cultural festivals, symbolizing the profound influence of Buddhism on the nation's people and heritage. Originally, Danshig (Tibetan- Tenshuk) is related to the enthronement ceremony of His Holiness Zanabazar (1635-1722), the spiritual head of Mongolian Buddhism and a direct descendant of Great Chinggis Khan. The word Danshig can be translated into ‘Firm existence’. The festival combines religious ceremonies with traditional Naadam sporting events, including wrestling, horse racing, and archery. A highlight of the festival is the mesmerizing Tsam dance performed by monks, featuring elaborate masks and costumes that depict various deities and animals. The festival also includes spiritual debates among monks, chanting, and other Buddhist rituals. Held annually in early August near Ulaanbaatar at Khui Doloon Khudag, the festival attracts both locals and tourists seeking an immersive cultural and spiritual experience.",
+        images: [
+            "/danshig/img1.jpg",
+            "/danshig/img2.jpg",
+            "/danshig/img3.jpg",
+            "/danshig/img4.jpg",
+            "/danshig/img5.jpg",
+            "/danshig/img6.jpg",
+            "/danshig/img7.jpg",
+            "/danshig/img8.jpg",
+            "/danshig/img9.jpg",
+            "/danshig/img10.jpg",
+        ]
     },
     {
         id: "ice-festival",
@@ -26,7 +39,20 @@ const festivals = [
         description: "Held on the frozen surface of the 'Blue Pearl' Lake Khuvsgul. It celebrates winter, local culture, and the traditional way of life for northern herders.",
         highlights: ["Horse Sledding & Ice Sumo", "Ice Sculptures & Ice Ger", "Shamanic Rituals"],
         image: "/event/icefestival.jpg",
-        icon: <Snowflake className="w-5 h-5 text-blue-400" />
+        icon: <Snowflake className="w-5 h-5 text-blue-400" />,
+        detailDescription: "Danshig Naadam is one of Mongolia's grandest religious and cultural festivals, symbolizing the profound influence of Buddhism on the nation's people and heritage. Originally, Danshig (Tibetan- Tenshuk) is related to the enthronement ceremony of His Holiness Zanabazar (1635-1722), the spiritual head of Mongolian Buddhism and a direct descendant of Great Chinggis Khan. The word Danshig can be translated into ‘Firm existence’. The festival combines religious ceremonies with traditional Naadam sporting events, including wrestling, horse racing, and archery. A highlight of the festival is the mesmerizing Tsam dance performed by monks, featuring elaborate masks and costumes that depict various deities and animals. The festival also includes spiritual debates among monks, chanting, and other Buddhist rituals. Held annually in early August near Ulaanbaatar at Khui Doloon Khudag, the festival attracts both locals and tourists seeking an immersive cultural and spiritual experience.",
+        images: [
+            "/danshig/img1.jpg",
+            "/danshig/img2.jpg",
+            "/danshig/img3.jpg",
+            "/danshig/img4.jpg",
+            "/danshig/img5.jpg",
+            "/danshig/img6.jpg",
+            "/danshig/img7.jpg",
+            "/danshig/img8.jpg",
+            "/danshig/img9.jpg",
+            "/danshig/img10.jpg",
+        ]
     },
     {
         id: "camel-festival",
@@ -37,7 +63,20 @@ const festivals = [
         description: "A premier event in the Gobi Desert to protect the endangered Bactrian camel. Features rare camel polo matches and beauty contests.",
         highlights: ["Camel Racing & Polo", "Traditional Music & Dance", "1,000+ Camels Parade"],
         image: "/event/thousandcamel.jpg",
-        icon: <Sun className="w-5 h-5 text-amber-500" />
+        icon: <Sun className="w-5 h-5 text-amber-500" />,
+        detailDescription: "Danshig Naadam is one of Mongolia's grandest religious and cultural festivals, symbolizing the profound influence of Buddhism on the nation's people and heritage. Originally, Danshig (Tibetan- Tenshuk) is related to the enthronement ceremony of His Holiness Zanabazar (1635-1722), the spiritual head of Mongolian Buddhism and a direct descendant of Great Chinggis Khan. The word Danshig can be translated into ‘Firm existence’. The festival combines religious ceremonies with traditional Naadam sporting events, including wrestling, horse racing, and archery. A highlight of the festival is the mesmerizing Tsam dance performed by monks, featuring elaborate masks and costumes that depict various deities and animals. The festival also includes spiritual debates among monks, chanting, and other Buddhist rituals. Held annually in early August near Ulaanbaatar at Khui Doloon Khudag, the festival attracts both locals and tourists seeking an immersive cultural and spiritual experience.",
+        images: [
+            "/danshig/img1.jpg",
+            "/danshig/img2.jpg",
+            "/danshig/img3.jpg",
+            "/danshig/img4.jpg",
+            "/danshig/img5.jpg",
+            "/danshig/img6.jpg",
+            "/danshig/img7.jpg",
+            "/danshig/img8.jpg",
+            "/danshig/img9.jpg",
+            "/danshig/img10.jpg",
+        ]
     },
     {
         id: "golden-eagle",
@@ -48,7 +87,20 @@ const festivals = [
         description: "Celebrates the ancient Kazakh tradition of hunting with golden eagles. Over 100 eagle hunters compete in events testing speed and agility.",
         highlights: ["Eagle Hunting Competitions", "Kukbar (Tug of war on horseback)", "Traditional Kazakh Costumes"],
         image: "/event/golden.jpg",
-        icon: <MapPin className="w-5 h-5 text-amber-700" />
+        icon: <MapPin className="w-5 h-5 text-amber-700" />,
+        detailDescription: "Danshig Naadam is one of Mongolia's grandest religious and cultural festivals, symbolizing the profound influence of Buddhism on the nation's people and heritage. Originally, Danshig (Tibetan- Tenshuk) is related to the enthronement ceremony of His Holiness Zanabazar (1635-1722), the spiritual head of Mongolian Buddhism and a direct descendant of Great Chinggis Khan. The word Danshig can be translated into ‘Firm existence’. The festival combines religious ceremonies with traditional Naadam sporting events, including wrestling, horse racing, and archery. A highlight of the festival is the mesmerizing Tsam dance performed by monks, featuring elaborate masks and costumes that depict various deities and animals. The festival also includes spiritual debates among monks, chanting, and other Buddhist rituals. Held annually in early August near Ulaanbaatar at Khui Doloon Khudag, the festival attracts both locals and tourists seeking an immersive cultural and spiritual experience.",
+        images: [
+            "/danshig/img1.jpg",
+            "/danshig/img2.jpg",
+            "/danshig/img3.jpg",
+            "/danshig/img4.jpg",
+            "/danshig/img5.jpg",
+            "/danshig/img6.jpg",
+            "/danshig/img7.jpg",
+            "/danshig/img8.jpg",
+            "/danshig/img9.jpg",
+            "/danshig/img10.jpg",
+        ]
     },
     {
         id: "danshig",
@@ -59,11 +111,34 @@ const festivals = [
         description: "A major Buddhist cultural celebration featuring the sacred Tsam mask dance alongside traditional wrestling, celebrating the legacy of Zanabazar.",
         highlights: ["Tsam Mask Dance", "Buddhist Rituals", "Three Games of Men"],
         image: "/event/danshig.jpg",
-        icon: <Flame className="w-5 h-5 text-orange-500" />
+        icon: <Flame className="w-5 h-5 text-orange-500" />,
+        detailDescription: "Danshig Naadam is one of Mongolia's grandest religious and cultural festivals, symbolizing the profound influence of Buddhism on the nation's people and heritage. Originally, Danshig (Tibetan- Tenshuk) is related to the enthronement ceremony of His Holiness Zanabazar (1635-1722), the spiritual head of Mongolian Buddhism and a direct descendant of Great Chinggis Khan. The word Danshig can be translated into ‘Firm existence’. The festival combines religious ceremonies with traditional Naadam sporting events, including wrestling, horse racing, and archery. A highlight of the festival is the mesmerizing Tsam dance performed by monks, featuring elaborate masks and costumes that depict various deities and animals. The festival also includes spiritual debates among monks, chanting, and other Buddhist rituals. Held annually in early August near Ulaanbaatar at Khui Doloon Khudag, the festival attracts both locals and tourists seeking an immersive cultural and spiritual experience.",
+        images: [
+            "/danshig/img1.jpg",
+            "/danshig/img2.jpg",
+            "/danshig/img3.jpg",
+            "/danshig/img4.jpg",
+            "/danshig/img5.jpg",
+            "/danshig/img6.jpg",
+            "/danshig/img7.jpg",
+            "/danshig/img8.jpg",
+            "/danshig/img9.jpg",
+            "/danshig/img10.jpg",
+        ]
     }
 ];
 
+type Festival = (typeof festivals)[0];
+
 export default function EventsSection() {
+    const { isOpen, onOpen, onOpenChange } = useDisclosure();
+    const [selectedFestival, setSelectedFestival] = useState<Festival | null>(null);
+
+    const handleOpenModal = (festival: Festival) => {
+        setSelectedFestival(festival);
+        onOpen();
+    };
+
     return (
         <section className="bg-[#FAF9F6] px-6 overflow-hidden py-24">
             <div className="max-w-7xl mx-auto space-y-24">
@@ -143,16 +218,14 @@ export default function EventsSection() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.1 }}
-                                className="group grid grid-cols-1 md:grid-cols-12 gap-6 items-center bg-white p-4 rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100"
+                                onClick={() => handleOpenModal(event)}
+                                className="group grid grid-cols-1 md:grid-cols-12 gap-6 items-center bg-white p-4 rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100 cursor-pointer"
                             >
-                                {/* Date Badge (Left) */}
                                 <div className="hidden md:flex md:col-span-2 flex-col items-center justify-center text-center border-r border-stone-100 pr-4 h-full">
                                     <span className="text-sm font-bold text-stone-400 uppercase tracking-wider">{event.date.split(" ")[0]}</span>
                                     <span className="text-4xl font-serif text-stone-900 my-1">{event.date.match(/\d+/)?.[0]}</span>
                                     <span className="text-xs bg-stone-100 text-stone-600 px-2 py-1 rounded-full mt-2">2026</span>
                                 </div>
-
-                                {/* Image (Middle-Left) */}
                                 <div className="md:col-span-4 relative h-64 md:h-56 rounded-2xl overflow-hidden">
                                     <Image
                                         src={event.image}
@@ -164,8 +237,6 @@ export default function EventsSection() {
                                         {event.icon}
                                     </div>
                                 </div>
-
-                                {/* Content (Right) */}
                                 <div className="md:col-span-6 p-2 md:p-4 space-y-4">
                                     <div className="flex justify-between items-start">
                                         <div>
@@ -176,17 +247,13 @@ export default function EventsSection() {
                                                 <MapPin size={14} className="text-amber-600" /> {event.location}
                                             </p>
                                         </div>
-                                        {/* Mobile Date Badge */}
                                         <div className="md:hidden bg-stone-100 px-3 py-1 rounded-lg text-xs font-bold text-stone-600">
                                             {event.date}
                                         </div>
                                     </div>
-
                                     <p className="text-stone-600 text-sm leading-relaxed line-clamp-2 md:line-clamp-none">
                                         {event.description}
                                     </p>
-
-                                    {/* Highlights Tags */}
                                     <div className="flex flex-wrap gap-2">
                                         {event.highlights.map((tag, i) => (
                                             <span key={i} className="text-xs font-medium bg-amber-50 text-amber-800 px-3 py-1 rounded-full border border-amber-100">
@@ -200,6 +267,70 @@ export default function EventsSection() {
                     </div>
                 </div>
             </div>
+
+            <Modal
+                isOpen={isOpen}
+                onOpenChange={onOpenChange}
+                size="4xl"
+                scrollBehavior="inside"
+                backdrop="blur"
+                classNames={{
+                    base: "bg-white",
+                    header: "border-b border-stone-100",
+                }}
+            >
+                <ModalContent>
+                    <>
+                        <ModalHeader className="sticky top-0 z-20 bg-white/90 backdrop-blur border-b border-stone-100 flex flex-col gap-1 py-6 px-8">
+                            <div className="flex items-center gap-2 mb-2">
+                                <span className="px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold uppercase">
+                                    {selectedFestival?.season}
+                                </span>
+                                <span className="flex items-center gap-1 text-stone-500 text-xs font-bold">
+                                    <Calendar size={14} /> {selectedFestival?.date}
+                                </span>
+                            </div>
+                            <h2 className="text-3xl font-serif text-stone-900">
+                                {selectedFestival?.title}
+                            </h2>
+                            <p className="text-stone-500 font-normal flex items-center gap-1">
+                                <MapPin size={14} /> {selectedFestival?.location}
+                            </p>
+                        </ModalHeader>
+
+                        <ModalBody className="px-8 py-8">
+                            <div className="mb-10">
+                                <h4 className="text-lg font-bold text-stone-900 mb-3 border-l-4 border-amber-600 pl-3">
+                                    About the Festival
+                                </h4>
+                                <p className="text-stone-600 leading-relaxed text-lg">
+                                    {selectedFestival?.detailDescription}
+                                </p>
+                            </div>
+                            {selectedFestival?.images && selectedFestival.images.length > 0 && (
+                                <div>
+                                    <h4 className="text-lg font-bold text-stone-900 mb-4 border-l-4 border-amber-600 pl-3">
+                                        Gallery
+                                    </h4>
+                                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                                        {selectedFestival.images.map((img, idx) => (
+                                            <div key={idx} className="relative aspect-square rounded-xl overflow-hidden">
+                                                <Image
+                                                    src={img}
+                                                    alt={`${selectedFestival?.title} - ${idx + 1}`}
+                                                    fill
+                                                    sizes="(max-width: 768px) 50vw, 25vw"
+                                                    className="object-cover"
+                                                />
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+                        </ModalBody>
+                    </>
+                </ModalContent>
+            </Modal>
         </section>
     );
 }
