@@ -7,20 +7,49 @@ import {
 } from "@heroui/react";
 import { motion } from "framer-motion";
 import {
+    User,
     Mail,
     Phone,
-    SendHorizontal,
-    User
+    SendHorizontal
 } from "lucide-react";
 import React, { useState } from "react";
+import { message } from "@/utils/message";
 
 export default function BookingForm() {
     const [isLoading, setIsLoading] = useState(false);
 
-    const handleSubmit = async (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setIsLoading(true);
-        setTimeout(() => setIsLoading(false), 2000);
+
+        const formData = new FormData(e.currentTarget);
+        const data = {
+            firstname: formData.get("firstname") as string,
+            lastname: formData.get("lastname") as string,
+            phone: formData.get("phone") as string,
+            email: formData.get("email") as string,
+        };
+
+        try {
+            const res = await fetch("/api/booking", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(data),
+            });
+
+            const result = await res.json();
+
+            if (!res.ok) {
+                throw new Error(result.error || "Хүсэлт илгээхэд алдаа гарлаа");
+            }
+
+            message.success("Таны хүсэлт амжилттай илгээгдлээ.");
+            (e.target as HTMLFormElement).reset();
+        } catch (err) {
+            message.error(err instanceof Error ? err.message : "Алдаа гарлаа");
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     return (
@@ -39,19 +68,19 @@ export default function BookingForm() {
                         <CardBody>
                             <form onSubmit={handleSubmit} className="flex flex-col gap-8">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <Input isRequired label="Firstname" placeholder="Firstname" labelPlacement="outside"
+                                    <Input isRequired name="firstname" label="Firstname" placeholder="Firstname" labelPlacement="outside"
                                         startContent={<User className="text-slate-400" size={18} />}
                                         variant="bordered" classNames={{ inputWrapper: "rounded-2xl h-12" }}
                                     />
-                                    <Input isRequired label="Lastname" placeholder="Lastname" labelPlacement="outside"
+                                    <Input isRequired name="lastname" label="Lastname" placeholder="Lastname" labelPlacement="outside"
                                         startContent={<User className="text-slate-400" size={18} />}
                                         variant="bordered" classNames={{ inputWrapper: "rounded-2xl h-12" }}
                                     />
-                                    <Input isRequired type="tel" label="Phone" placeholder="Enter your phone" labelPlacement="outside"
+                                    <Input isRequired name="phone" type="tel" label="Phone" placeholder="Enter your phone" labelPlacement="outside"
                                         startContent={<Phone className="text-slate-400" size={18} />}
                                         variant="bordered" classNames={{ inputWrapper: "rounded-2xl h-12" }}
                                     />
-                                    <Input isRequired label="Email" placeholder="Enter your email" labelPlacement="outside"
+                                    <Input isRequired name="email" type="email" label="Email" placeholder="Enter your email" labelPlacement="outside"
                                         startContent={<Mail className="text-slate-400" size={18} />}
                                         variant="bordered" classNames={{ inputWrapper: "rounded-2xl h-12" }}
                                     />
